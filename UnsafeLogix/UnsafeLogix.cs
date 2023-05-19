@@ -6,12 +6,12 @@ namespace UnsafeLogix
     public class UnsafeLogix : NeosMod
     {
         public override string Name => "UnsafeLogix";
-        public override string Author => "username";
+        public override string Author => "APnda";
         public override string Version => "1.0.0";
-        public override string Link => "https://github.com/GithubUsername/RepoName/";
+        public override string Link => "https://github.com/ap6661/UnsafeLogix/";
         public override void OnEngineInit()
         {
-            Harmony harmony = new Harmony("net.username.Template");
+            Harmony harmony = new Harmony("net.APnda.UnsafeLogix");
             harmony.PatchAll();
         }
 		
